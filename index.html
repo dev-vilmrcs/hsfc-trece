@@ -80,7 +80,8 @@
               <li><a href="#services">Services</a></li>
               <li><a href="#pastors">Pastors</a></li>
               <li><a href="#events">Events</a></li>
-              <li><a href="#ministry">Ministry</a></li>
+              <!-- <li><a href="#ministry">Ministry</a></li> -->
+              <li><a href="#giving">Giving</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -104,9 +105,12 @@
       <!-- Include Services Section -->
       <div id="services-container"></div>
 
+      <!-- Include Pastor Section -->
+      <div id="pastors-container"></div>
+
       <!-- Include Doctors Section -->
       <div id="doctors-container"></div>
-      
+
       <!-- Include Hero Section -->
       <div id="announcement-container"></div>
 
@@ -122,9 +126,14 @@
       <!-- Include Gallery Section -->
       <div id="gallery-container"></div>
 
+      <!-- Include Gallery Section -->
+      <div id="portfolio-container"></div>
+
+      <!-- Include Give Section -->
+      <div id="giving-container"></div>
+
       <!-- Include Contact Section -->
       <div id="contact-container"></div>
-
     </main>
 
     <!-- Include Footer -->
@@ -143,6 +152,8 @@
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
     <!-- Section Loader Script -->
     <script>
@@ -174,12 +185,15 @@
         { id: 'services-container', file: 'sections/services.html' },
         { id: 'departments-container', file: 'sections/departments.html' },
         { id: 'doctors-container', file: 'sections/doctors.html' },
+        /*   { id: 'pastors-container', file: 'sections/pastors.html' }, */
         { id: 'faq-container', file: 'sections/faq.html' },
         { id: 'testimonials-container', file: 'sections/testimonials.html' },
         { id: 'gallery-container', file: 'sections/gallery.html' },
+       /*  { id: 'portfolio-container', file: 'sections/portfolio.html' }, */
         { id: 'contact-container', file: 'sections/contact.html' },
-        { id: 'footer-container', file: 'sections/footer.html' },
         { id: 'announcement-container', file: 'sections/announcement.html' },
+        { id: 'giving-container', file: 'sections/giving.html' },
+        { id: 'footer-container', file: 'sections/footer.html' },
       ];
 
       let loadedCount = 0;
